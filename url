@@ -1,0 +1,2 @@
+url = "http://127.0.0.1:8000/docs#/default/chat_chat_post"
+url.main = "http://127.0.0.1:8000" 
