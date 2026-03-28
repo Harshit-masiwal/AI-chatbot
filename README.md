@@ -65,34 +65,26 @@ GOOGLE_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Run Backend (FastAPI)
+## 🌐 Live Backend
 
-```bash id="cmd2"
-uv run uvicorn main:app --reload
-```
+FastAPI backend deployed on Render:
 
-Backend runs on:
+👉 https://ai-chatbot-ldjt.onrender.com
 
-```
- http://127.0.0.1:8000 
- 
-```
+# 🤖 AI Chatbot (Streamlit Frontend)
+
+This is the frontend of an AI-powered chatbot built using **Streamlit**.  
+It connects to a FastAPI backend deployed on Render and uses Google Gemini via LangChain.
 
 ---
 
-## ▶️ Run Frontend (Streamlit)
+## 🌐 Live Demo
 
-```bash id="cmd3"
-uv run streamlit run app.py
-```
+👉 Frontend (Streamlit):  
+https://ai-chatbot-2wjmrraec3zewjwgukze9c.streamlit.app/
 
-Frontend runs on:
-
-```id="url3"
-http://localhost:8501
-```
-
----
+👉 Backend (FastAPI):  
+https://ai-chatbot-ldjt.onrender.com
 
 ## 🌐 API Testing
 

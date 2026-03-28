@@ -54,3 +54,4 @@ async def chat(req: ChatRequest):
         return {"response": response.content}
     except Exception as e:
         return {"error": str(e)}
+    

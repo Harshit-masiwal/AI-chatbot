@@ -13,10 +13,9 @@ if st.button("Send"):
         try:
             # Send the message to the FastAPI backend
             response = requests.post(
-                "http://127.0.0.1:8000/chat",
-                json={"message": user_message}
-            )
-
+    "https://ai-chatbot-ldjt.onrender.com/chat",
+    json={"message": user_message}
+)
             # Display the response from the backend
             if response.status_code == 200:
                 st.success(response.json().get("response", "No response received"))
