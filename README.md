@@ -69,7 +69,7 @@ GOOGLE_API_KEY=your_api_key_here
 
 FastAPI backend deployed on Render:
 
-👉 https://ai-chatbot-ldjt.onrender.com
+👉 [https://ai-chatbot-ldjt.onrender.com](https://ai-chatbot-w8tyh9os42k5rtgh2jx3kr.streamlit.app/)
 
 # 🤖 AI Chatbot (Streamlit Frontend)
 
@@ -81,7 +81,7 @@ It connects to a FastAPI backend deployed on Render and uses Google Gemini via L
 ## 🌐 Live Demo
 
 👉 Frontend (Streamlit):  
-https://ai-chatbot-2wjmrraec3zewjwgukze9c.streamlit.app/
+[https://ai-chatbot-2wjmrraec3zewjwgukze9c.streamlit.app/](https://ai-chatbot-w8tyh9os42k5rtgh2jx3kr.streamlit.app/)
 
 👉 Backend (FastAPI):  
 https://ai-chatbot-ldjt.onrender.com
